@@ -40,5 +40,5 @@ export default function App() {
 }
 
 function funcao2(p) {
-  alert("Posição Lati, Long: "+p);
+  alert("Posição (Latitude, Longitude)|"+p);
 }
