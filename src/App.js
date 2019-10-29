@@ -5,6 +5,7 @@ import { Marker ,withScriptjs, withGoogleMap, GoogleMap } from "react-google-map
 function Map () {
   return(
     < GoogleMap
+      googleMapURL={'https://maps.googleapis.com/maps/api/js?key=AIzaSyCqbsMLA-NxlHO5mz4JoLjwO9QFw2PTQ5U&v=3.exp&callback=initMap'}
       defaultZoom = {15}
       defaultCenter = {{ lat : -20.606356, lng : -41.201441}} 
     >
