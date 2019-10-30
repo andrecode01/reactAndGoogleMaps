@@ -30,7 +30,7 @@ export default function App() {
     <div style={{margin: '0 auto', width:'80vw', height:'100vh'}}>
       <h1 class="tittle">React and Google Maps</h1>
       <WrappedMap 
-        googleMapURL={'https://maps.googleapis.com/maps/api/js?key=AIzaSyCqbsMLA-NxlHO5mz4JoLjwO9QFw2PTQ5U&v=3.exp&callback=initMap'}
+        googleMapURL={'https://maps.googleapis.com/maps/api/streetview?location=41.403609,2.174448&size=456x456&key=AIzaSyCqbsMLA-NxlHO5mz4JoLjwO9QFw2PTQ5U'}
         loadingElement={<div style={{ height: `100%` }} />}
         containerElement={<div style={{ height: `80vh` }} />}
         mapElement={<div style={{ height: `100%` }} />}
