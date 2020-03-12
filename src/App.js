@@ -6,7 +6,8 @@ function Map () {
   return(
     < GoogleMap
       defaultZoom = {15}
-      defaultCenter = {{ lat : -20.606356, lng : -41.201441}} 
+      defaultCenter = {{ lat : -20.756598202039, lng : -41.451916662831
+}} 
     >
 
       < Marker 
@@ -15,7 +16,8 @@ function Map () {
             this.getPosition()
           );
         }}
-        position = {{ lat : -20.606356, lng : -41.201441}}
+        position = {{ lat : -20.756598202039, lng : -41.451916662831
+}}
       />
 
     </ GoogleMap>
@@ -40,5 +42,5 @@ export default function App() {
 }
 
 function funcao2(p) {
-  alert("Posição (Latitude, Longitude)|"+p);
+  alert("Árvore Pau-Ferro: Posição (Latitude, Longitude)|"+p);
 }
